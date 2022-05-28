@@ -20,6 +20,6 @@ Esse é o repositório do CP3
    -  campo mensagem com o rótulo (“Qual a sua motivação para a viagem?”)
    -  O formulário não pode ser submetido com nenhum campo vazio.
    -  Cada campo deve ser criado com seu tipo específico de dado.
-      Ao ser submetidas as informações, estando tudo ok uma mensagem de alerta deve ser emitida informando que os dados foram cadastrados com sucesso e a navegação deve ser direcionada para a página inicial(isso se consegue colocando a página de destino no action)
+   -  Ao ser submetidas as informações, estando tudo ok uma mensagem de alerta deve ser emitida informando que os dados foram cadastrados com sucesso e a navegação deve ser direcionada para a página inicial(isso se consegue colocando a página de destino no action)
 -  O formulário deve ser acessado através de um item de menu chamado “Contato”.
 -  O seu dever é criar a página e chegar em um resultado próximo ou igual ao da imagem abaixo.
