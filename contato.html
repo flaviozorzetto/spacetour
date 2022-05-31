@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+   <html lang="pt-br">
+      <head>
+         <meta charset="UTF-8" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+         <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+         />
+         <title>SpaceTour</title>
+         <link rel="stylesheet" href="./estilo.css" />
+         <script src="script.js" defer></script>
+      </head>
+      <body>
+         <div id="container">
+            <header class="cabecalho">
+               <img
+                  src="imgs/logo-spacetours.png"
+                  alt="Logo SpaceTour"
+                  class="logo"
+               />
+               <nav class="menu">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="#">Sobre</a></li>
+                     <li><a href="#">Pacotes</a></li>
+                     <li><a href="contato.html">Contato</a></li>
+                  </ul>
+               </nav>
+            </header>
+            <section class="formulario-secao">
+               <form action="index.html" method="get" class="formulario">
+                  <fieldset>
+                     <div>
+                        <label for="nmUserId">Nome: </label>
+                        <input
+                           type="text"
+                           name="nmUser"
+                           id="nmUserId"
+                           placeholder="nome"
+                        />
+                     </div>
+                     <div>
+                        <label for="nmUserId">Sobrenome: </label>
+                        <input
+                           type="text"
+                           name="sbUser"
+                           id="sbUserId"
+                           placeholder="sobrenome"
+                        />
+                     </div>
+                     <div>
+                        <label for="emailUserId">Email: </label>
+                        <input
+                           type="email"
+                           name="emailUser"
+                           id="emailUserId"
+                           placeholder="email"
+                        />
+                     </div>
+                     <div>
+                        <label for="emailUserId">Cpf: </label>
+                        <input
+                           type="text"
+                           name="cpfUser"
+                           id="cpfUserId"
+                           placeholder="cpf"
+                        />
+                     </div>
+                     <div>
+                        <label for="emailUserId">Data de nascimento: </label>
+                        <input
+                           type="date"
+                           name="dataUser"
+                           id="dataUserId"
+                           placeholder="data nascimento"
+                        />
+                     </div>
+                     <div>
+                        <label for="telUserId">Telefone: </label>
+                        <input
+                           type="tel"
+                           name="telUser"
+                           id="telUserId"
+                           placeholder="telefone"
+                        />
+                     </div>
+                     <div id="genDiv">
+                        <p class="gen">Gênero:</p>
+                        <div>
+                           <input
+                              type="radio"
+                              name="genero"
+                              id="masculino"
+                              value="masculino"
+                           />
+                           <label for="masculino">Masculino</label>
+                        </div>
+                        <div>
+                           <input
+                              type="radio"
+                              name="genero"
+                              id="feminino"
+                              value="feminino"
+                           />
+                           <label for="feminino">Feminino</label>
+                        </div>
+                        <div>
+                           <label for="mensagemId"
+                              >Qual a sua motivação para a viagem?</label
+                           >
+                           <textarea
+                              name="mensagem"
+                              id="mensagemId"
+                              cols="30"
+                              rows="10"
+                           ></textarea>
+                        </div>
+                     </div>
+                     <input type="button" value="ENVIAR" class="btnEnviar" />
+                  </fieldset>
+               </form>
+            </section>
+         </div>
+      </body>
+   </html>
+</html>
